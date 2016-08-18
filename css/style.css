@@ -1,0 +1,81 @@
+.article-wrapper{
+  overflow: hidden;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 6px rgba(119, 119, 119, 0.41);
+  margin: 15px 0px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+.hide-btn{
+  float: right;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: sans-serif;
+  line-height: 10px;
+  color: #777;
+  padding-bottom: 5px;
+}
+/* Let's get this party started */
+.article-wrapper::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.article-wrapper::-webkit-scrollbar-track {
+  webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Handle */
+.article-wrapper::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: rgba(119, 119, 119, 0.4);
+  -webkit-box-shadow: none;
+}
+/*.article-wrapper::-webkit-scrollbar-thumb:window-inactive {
+background: rgba(255,0,0,0.4);
+}*/
+.creator_name,.published_on{
+  font-size: 11px;
+  font-weight: bold;
+  color: #777;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+}
+.article_heading{
+  font-size: 15px;
+  font-weight: 800;
+  display: block;
+  margin-bottom: 15px;
+}
+.description img{
+  max-width: 100%;
+}
+.description .sw-para {
+  font-size: 13px;
+  color: #2b2b2b;
+}
+.discription figure figurecaption{
+  font-size: 10px;
+}
+.discription sw-para.newadd {
+  margin-bottom: 0px;
+}
+.discription .sw-para a {
+  font-weight: bold;
+  font-size: 12px;
+  color: #1169c1;
+}
+.watch span{
+  display: block;
+  text-align: center;
+}
+.watch {
+    background-color: #31ad31;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
