@@ -46,7 +46,7 @@ var Reader = (function(){
     }
   }
 })();
-Reader.start('https://www.scoopwhoop.com/rss','20');
+Reader.start('https://www.scoopwhoop.com/tag/Rss','20');
 window.setInterval(function(){
   Reader.showTime();
   Reader.timeonsite();
